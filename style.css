@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.head {
+    position:fixed;
+	  display: flex;
+    text-align: center;
+    height: 63px;
+    background: #007ecc;
+    /* position: fixed;*/
+    width: 100%;
+    z-index: 100;
+    justify-content: center;
+  top: 0;
+    
+}
+
+.headerconfig {
+    display: flex;
+    margin-right: 10px;
+}
+
+.headerconfig a {
+    display: block;
+    padding: 20px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  
+}
+
+.Acerca_de {
+   padding: 20px 20px;
+}
+.PROYECTOS {
+    margin: 10%;
+    padding: .3rem;
+    background-color:#007ecc;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.P1 > h1,
+.day-partido {
+    margin: .5rem;
+    padding: .6rem;
+    font-size: 1.2rem;
+}
+
+.P1 {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.P1 > h2, .day-partido > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+.footer, h5 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #b05454;
+    color: #fff;
+}
+.contacto {
+  margin: 10%;
+    padding: .3rem;
+    background-color:#007ecc;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+figcaption {
+  color: #787878;
+  font-style: italic;
+}
